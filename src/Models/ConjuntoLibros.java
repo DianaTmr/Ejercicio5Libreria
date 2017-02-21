@@ -82,13 +82,12 @@ public class ConjuntoLibros {
 			}
 			
 		}
-		public Libro borrarTitulo(String titulo){
+		public void borrarTitulo(String titulo){
 			for (int i = 0; i < libros.size()-1; i++){
 				if (libros.get(i).getTitulo() == titulo){
 					libros.remove(i);
 				}
 			}
-			return null;
 			
 		}
 	
