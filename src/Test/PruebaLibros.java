@@ -10,7 +10,7 @@ public class PruebaLibros {
 
 		Libro l = new Libro ("Lo que el viento se llevó", "Cervantes", 300, 10);
 		Libro l2 = new Libro ("El Diario de Anna Frank", "Anna Frank", 230, 15);
-		Libro l3 = new Libro ("La ladrona de libros", "Markus Zusak", 154, 1);
+		Libro l3 = new Libro ("La ladrona de libros", "Markus Zusak", 154, 4);
 		Libro l4 = new Libro ("La Sirenita", "Markus Zusak", 154, 1);
 		
 		conjunto.addcoleccion(l);
@@ -37,15 +37,10 @@ public class PruebaLibros {
 		System.out.println("=======================================");
 		conjunto.imprimir(conjunto.getLibros());
 		
-		
-		
-		/*
 		Libro mayornota = conjunto.getMayorNota();
 		Libro menornota = conjunto.getMenorNota();
 		System.out.println("El libro con la mayor nota es "+mayornota.getTitulo()+" y el libro con menor nota es " +menornota.getTitulo());
-		conjunto.addLibro(l);
-		conjunto.addLibro(l2);
-		System.out.println(conjunto);*/
+	
 	}
 
 }
